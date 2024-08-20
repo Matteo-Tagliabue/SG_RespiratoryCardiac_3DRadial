@@ -127,7 +127,7 @@ else
 
         envelope = abs(hilbert(br_cylce));
         br_cylce = (br_cylce ./ envelope);
-                br_cylce=(br_cylce+1)*0.5;
+        br_cylce=(br_cylce+1)*0.5;
 
     end
 
