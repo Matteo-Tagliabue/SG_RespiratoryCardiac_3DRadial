@@ -71,7 +71,7 @@ The script utilizes the following functions:
 - `mt_extractionBreathingSignalCT`
 - `mt_respiratory_info_extraction_BandPass`
 - `mt_removeUnsteadySegments`
-- `applyRespiratoryBinning`
+- `mt_applyRespiratoryBinning`
 
 ## License
 

@@ -104,8 +104,8 @@ kdata_rawFR(:,RemoveIndices,:)=[];
 
 %% BREATHING SIGNAL
 
-acquisitionMode =1; % 0 for Cardiac Triggered, 1 for FreeRunning
-hilbertFlag =1 ;    % 0 for no, 1 for yes. The Hilbert transform removes amplitude modulation from the respiratory signal.
+acquisitionMode =0; % 0 for Cardiac Triggered, 1 for FreeRunning
+hilbertFlag =0 ;    % 0 for no, 1 for yes. The Hilbert transform removes amplitude modulation from the respiratory signal.
 % Although this modulation is believed to be a physiological phenomenon, removing it can sometimes improve results.
 
 % MOTION EXTRACTION
