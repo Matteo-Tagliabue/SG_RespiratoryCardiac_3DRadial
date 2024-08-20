@@ -22,6 +22,8 @@ clear all clc
 
 %% LOAD DATA
 
+% DOWNLOAD THE DATA https://www.dropbox.com/scl/fi/ol9mdl7hj5bx5ogbn995o/Data.zip?rlkey=t8nz1s5j7wrgl4sgu45gogxf3&st=tzvho4sg&dl=0
+
 % FREE RUNNING DATA
 kdata_rawFR = load("FreeRunning/kdata_raw.mat");
 kdata_raw_originalFR = load("FreeRunning/kdata_raw_original.mat");
